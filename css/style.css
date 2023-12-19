@@ -18,7 +18,7 @@ body{
     height: 100%;
     background: rgb(20, 20, 20);
     overflow-x: hidden;
-    gap: 1rem;
+    gap: 0.4rem
     
 }
 
@@ -98,6 +98,7 @@ section{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+
    
 
 

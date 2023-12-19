@@ -25,6 +25,7 @@ header{
     width: 100%;
     min-height: 100vh;
     height: 100%;
+    overflow-x: hidden;
 }
 
 .menu{
@@ -105,6 +106,7 @@ section{
     position: relative;
     cursor: default;
     text-align: left;
+    width: 50%;
 }
 
 .container-left:hover{
@@ -133,6 +135,10 @@ section{
 
 .social{
     display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    gap: 2rem;
 }
 .social a{
     width: 45px;
@@ -140,10 +146,10 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: white;
+    background: rgb(255, 0, 0);
     border-radius: 50%;
-    margin: 22px 10px;
-    color: rgb(255, 0, 0);
+   
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
@@ -156,7 +162,7 @@ section{
 
 .container-right{
     position: relative;
-    width: 40%;
+    width: 50%;
 
     
 }
@@ -165,6 +171,7 @@ section{
     width: auto;
     max-height: 31rem;
     overflow: hidden;
+    overflow-x: hidden;
     filter: drop-shadow(9px 38px 10px #000000);
     
 }

@@ -21,13 +21,10 @@ body{
     
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 header{
     width: 100%;
     min-height: 100vh;
+    height: 100%;
 }
 
 .menu{
@@ -117,7 +114,7 @@ section{
 
 
 .container-left > h3{
-    font-size: 1.2rem;
+    font-size: 2rem;
     color: white;
     text-shadow: 4px 3px 1px rgba(29, 5, 5, 0.6);
     
@@ -125,13 +122,37 @@ section{
 
 
 .container-left > h1{
-    font-size: 6rem;
+    font-size: 6.5rem;
     color: rgb(255, 0, 0);
     letter-spacing: -4px;
     text-shadow: 4px 3px 1px rgba(29, 5, 5, 0.6);
     margin-left: -8px;
     
+    
 }
+
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+    transition: .3s;
+}
+
 
 .container-right{
     position: relative;
@@ -142,7 +163,9 @@ section{
 
 .container-right > img{
     width: auto;
-    max-height: 23rem;
+    max-height: 31rem;
+    overflow: hidden;
+    filter: drop-shadow(9px 38px 10px #000000);
     
 }
 
